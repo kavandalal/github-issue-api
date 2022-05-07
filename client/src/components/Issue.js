@@ -9,7 +9,7 @@ function Issue(props) {
 	const [data, setData] = useState({});
 
 	useEffect(() => {
-		// getAllData();
+		getAllData();
 	}, []);
 
 	const getAllData = async () => {

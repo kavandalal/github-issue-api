@@ -20,7 +20,7 @@ function Home() {
 	});
 
 	useEffect(() => {
-		// getData();
+		getData();
 	}, []);
 
 	const getData = async (pageNum = null) => {
