@@ -22,11 +22,11 @@ body {
 * {box-sizing: border-box;}
 
 .main-body{
-min-height: 100vh;
-height: auto;
-width: 100vw;
-background-color: var(--bg-clr);
-color: var(--text-clr)
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  background-color: var(--bg-clr);
+  color: var(--text-clr)
 }
 
 .box{
